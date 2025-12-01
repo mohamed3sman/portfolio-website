@@ -20886,25 +20886,27 @@ aav:function aav(a,b,c){this.a=a
 this.b=b
 this.c=c},
 B1:function B1(){},
-azM(){var s,r,q,p,o,n,m,l=null
+azM(){var s,r,q,p,o,n,m,l,k=null
 if($.af==null)A.avF()
 s=$.af
 s.toString
-r=$.ax().gbT().b
-q=t.e8
-if(q.a(r.i(0,0))==null)A.aj(A.a2('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
-p=q.a(r.i(0,0))
-p.toString
-o=s.gtR()
-n=s.ch$
-if(n===$){r=q.a(r.i(0,0))
-r.toString
-m=new A.Nd(B.V,r,l,A.aA())
-m.aN()
-m.Ro(l,l,r)
+r=window.navigator.userAgent.toLowerCase()
+if(!B.d.C(r,"android"))if(!B.d.C(r,"iphone"))B.d.C(r,"ipad")
+q=$.ax().gbT().b
+p=t.e8
+if(p.a(q.i(0,0))==null)A.aj(A.a2('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
+o=p.a(q.i(0,0))
+o.toString
+n=s.gtR()
+m=s.ch$
+if(m===$){q=p.a(q.i(0,0))
+q.toString
+l=new A.Nd(B.V,q,k,A.aA())
+l.aN()
+l.Ro(k,k,q)
 s.ch$!==$&&A.b3()
-s.ch$=m
-n=m}s.N5(new A.xW(p,B.Ew,o,n,l))
+s.ch$=l
+m=l}s.N5(new A.xW(o,B.Ew,n,m,k))
 s.Bt()},
 F8:function F8(a){this.a=a},
 a_y:function a_y(){},
