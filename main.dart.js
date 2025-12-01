@@ -21512,7 +21512,7 @@ k=A.m(p)
 o="https://wa.me/"+b+("?text="+k)
 n=A.iy(o,0,null)
 j=A.ahj(o)
-j.target="_blank"
+j.target="_self"
 j.rel="noopener noreferrer"
 m=j
 J.ah9(m)
