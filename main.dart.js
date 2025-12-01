@@ -21547,19 +21547,17 @@ break
 case 6:case 1:return A.O(q,r)
 case 2:return A.N(o.at(-1),r)}})
 return A.P($async$Ip,r)},
-xW(a){var s=!0
-return A.avE(a)},
-avE(a){var s=0,r=A.Q(t.y),q,p,o,n,m,l,k
-var $async$xW=A.R(function(b,c){if(b===1)return A.N(c,r)
-while(true)switch(s){case 0:k=!0
-try{o=window
+xW(a,b){return A.avE(a,b)},
+avE(a,b){var s=0,r=A.Q(t.y),q,p,o,n,m,l
+var $async$xW=A.R(function(c,d){if(c===1)return A.N(d,r)
+while(true)switch(s){case 0:try{o=window
 o.toString
-n=k?"_self":"_blank"
+n=b?"_self":"_blank"
 m=o.open(a,n)
 A.aw0(m)
 q=!0
 s=1
-break}catch(j){p=A.ae(j)
+break}catch(k){p=A.ae(k)
 A.adO("\u274c Social URL Launch Error: "+A.m(p))
 q=!1
 s=1
@@ -64570,7 +64568,7 @@ s=3
 break
 case 4:p=p.d
 s=5
-return A.T(A.xW(p==null?"":p),$async$$0)
+return A.T(A.xW(p==null?"":p,!1),$async$$0)
 case 5:case 3:return A.O(null,r)}})
 return A.P($async$$0,r)},
 $S:9}
@@ -65020,7 +65018,7 @@ A.VX.prototype={
 $0(){var s=0,r=A.Q(t.H)
 var $async$$0=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:s=2
-return A.T(A.xW("https://drive.google.com/file/d/1WU1UA7LBvHaGX81VngVH0F2L69El6ZHT/view?usp=drivesdk"),$async$$0)
+return A.T(A.xW("https://drive.google.com/file/d/1WU1UA7LBvHaGX81VngVH0F2L69El6ZHT/view?usp=drivesdk",!0),$async$$0)
 case 2:return A.O(null,r)}})
 return A.P($async$$0,r)},
 $S:9}
@@ -65246,7 +65244,7 @@ A.aau.prototype={
 $0(){var s=0,r=A.Q(t.H),q,p=this
 var $async$$0=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:s=3
-return A.T(A.xW(p.a),$async$$0)
+return A.T(A.xW(p.a,!1),$async$$0)
 case 3:q=b
 s=1
 break
@@ -65257,7 +65255,7 @@ A.aav.prototype={
 $0(){var s=0,r=A.Q(t.H),q,p=this
 var $async$$0=A.R(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:s=3
-return A.T(A.xW(p.a),$async$$0)
+return A.T(A.xW(p.a,!1),$async$$0)
 case 3:q=b
 s=1
 break
